@@ -59,21 +59,21 @@ VALUES
 --INSERT songs TABLE
 INSERT INTO songs (name, duration, album_id)
 VALUES 
-	('Business', '04:11', 1),
-	('Curtains Close', '01:01' , 1),
-	('"Mob Ties"', '03:25', 2),
-	('All My', '02:25', 4),
-	('No Mistakes', '02:03', 4),
-	('Formation', '03:26', 7),
-	('All Night', '05:22', 7),
-	('Forvard', '01:19', 7),
-	('Memories', '03:09', 3),
-	('Seasons', '02:48', 3),
-	('Lost', '02:52', 3),
-	('Sunrise', '02:31', 5),
-	('Daddy', '04:58', 5),
-	('Everyday Life', '04:18', 5),
-	('Cry Cry Cry', '02:47', 5);
+	('Business', '00:04:11', 1),
+	('Curtains Close', '00:01:01' , 1),
+	('"Mob Ties"', '00:03:25', 2),
+	('All My', '00:02:25', 4),
+	('No Mistakes', '00:02:03', 4),
+	('Formation', '00:03:26', 7),
+	('All Night', '00:05:22', 7),
+	('Forvard', '00:01:19', 7),
+	('Memories', '00:03:09', 3),
+	('Seasons', '00:02:48', 3),
+	('Lost', '00:02:52', 3),
+	('Sunrise', '00:02:31', 5),
+	('Daddy', '00:04:58', 5),
+	('Everyday Life', '00:04:18', 5),
+	('Cry Cry Cry', '00:02:47', 5);
 
 --INSERT collections TABLE
 INSERT INTO collections (name, release_year)
