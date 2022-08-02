@@ -29,7 +29,7 @@ CREATE TABLE IF NOT EXISTS albums_singers(
 CREATE TABLE IF NOT EXISTS songs(
 	id SERIAL PRIMARY KEY,
 	name TEXT NOT NULL,
-	duration NUMERIC CHECK (duration > 0),
+	duration TIME NOT NULL,,
 	album_id INTEGER NOT NULL REFERENCES albums(id)
 );
 
