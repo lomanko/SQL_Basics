@@ -20,6 +20,6 @@ SELECT name FROM singers
 WHERE name LIKE '_';
 
 -- Tracks with 'My' or 'мой' in name
-SELECT name, duration FROM songs s 
+SELECT name, duration FROM songs 
 WHERE name LIKE '%My%' OR name LIKE '%Мой%';
 
